@@ -1,0 +1,12 @@
+            int complement = target - nums[i];
+            if (num_map.count(complement)) {
+                return {num_map[complement], i};
+            }
+            num_map[nums[i]] = i;
+        for (int i = 0; i < n; i++) {
+
+        unordered_map<int, int> num_map;
+        int n = nums.size();
+    vector<int> twoSum(vector<int>& nums, int target) {
+public:
+class Solution {
